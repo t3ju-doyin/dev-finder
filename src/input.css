@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.count{
+    @apply flex flex-col items-center gap-1 text-xs sm:items-start;
+}
+.info{
+    @apply flex gap-3 mb-3 items-center;
+}
+.display-none{
+    @apply hidden;
+}
